@@ -26,7 +26,7 @@ function App() {
 
     <Provider store={store}>
 
-  <BrowserRouter>
+  <BrowserRouter  basename="/luxemart">
   <Navbar/>
   <Routes>
 

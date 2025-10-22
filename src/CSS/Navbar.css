@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.main-navbar {
+
+    background: #2f333a;
+    padding: 10px 60px;
+    font-family: "Poppins", sans-serif;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+.middle-nav {
+    width: 70%;
+}
+
+.middle-nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-ul {
+    list-style-type: none;
+}
+
+li a {
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+li a:hover {
+    color: #1ABC9C;
+
+}
+
+/* .logo {
+    width: 60px;
+    height: 60px;
+    animation: spin 5s linear infinite;
+} */
+.toggle-nav-btn {
+    text-align: right;
+}
+
+.toogle-button {
+
+    display: none;
+}
+
+.icon-image {
+    height: 30px;
+    width: 30px;
+}
+
+.icon-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.mobile-nav {
+    top: 100%;
+    left: 100%;
+    transform: translate(-70%, 10%);
+    position: absolute;
+    display: none;
+}
+
+/* @keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.logo img {
+
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+} */
+.mobile-nav {
+    background-color: #2f333a;
+    padding: 10px;
+}
+
+
+/* Media Query  */
+
+@media (max-width:1024px) {
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    .middle-nav ul {
+        display: flex;
+        gap: 20px;
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .middle-nav {
+        display: none;
+    }
+
+    .toogle-button {
+        display: block;
+    }
+
+    .mobile-nav {
+
+        display: block;
+    }
+}

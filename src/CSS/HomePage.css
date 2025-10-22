@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container2{
+    font-family: "Poppins", sans-serif;
+
+}
+.main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+    
+}
+.top-text{
+    font-size: 50px;
+}
+.top-text span{
+    color: #1ABC9C;
+}
+.para{
+    width: 35%;
+    text-align: center;
+}
+
+.main-button{
+    background-color:#1ABC9C ;
+    border-radius: 10px;
+    
+}
+.button{
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    padding: 10px 60px;
+    color:#ffff;
+    border: none;
+    background: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px 0;
+}
+
+.card-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #F8F9FA;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    color: #2f333a;
+    width: 250px;
+    text-align: center;
+    
+}
+.card-image {
+    height: 200px;
+    width: 200px;
+}
+
+.card-image img {
+    height: 100%;
+    width: 100%;
+}   
+.main-text{
+    height: 50px;
+}
+.text {
+    transition: all 0.3s ease;
+    font-size: 20px;    
+}
+.text:hover{
+    color: #1ABC9C;
+}
+.card-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color:#4B5563 ;
+}
+.card-btn{
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    padding: 10px;
+    color:#ffff;
+    border: none;
+    background: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+.card-btn:hover{
+    background: #1ABC9C;
+}

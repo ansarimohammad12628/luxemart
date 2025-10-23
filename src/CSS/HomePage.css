@@ -26,7 +26,7 @@
     color: #1ABC9C;
 }
 .para{
-    width: 35%;
+    width: 50%;
     text-align: center;
 }
 
@@ -113,3 +113,31 @@
 .card-btn:hover{
     background: #1ABC9C;
 }
+/* media quries start  */
+@media(max-width:1024px){
+    .para{
+    width: 70%;
+    
+}
+
+}
+
+@media(max-width:768px){
+    .para{
+        width: 100%;
+    }
+}
+
+@media(max-width:480px){
+    .top-text{
+    font-size: 30px;
+}
+
+}
+
+@media(max-width:334px){
+    .para{
+        font-size: 12px;
+    }
+}
+

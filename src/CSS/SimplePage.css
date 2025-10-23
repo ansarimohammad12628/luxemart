@@ -72,3 +72,6 @@
     font-weight: 600;
     transition: 0.3s;
 }
+ a{
+  text-decoration: none;
+}

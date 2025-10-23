@@ -1,6 +1,7 @@
 import React from 'react';
 
 import "../CSS/SimplePage.css"
+import { Link } from 'react-router-dom';
 
 const SimplePage = () => {
   return (
@@ -9,7 +10,9 @@ const SimplePage = () => {
       <div class="intro-container">
     <h1>Welcome to <span>LuxeMart</span></h1>
     <p>Discover your perfect makeup look</p>
-    <a href="login" class="btn">Explore Now</a>
+    <Link to="/login">
+    <a href="" class="btn">Explore Now</a>
+    </Link>
   </div>
     </div>
   )
